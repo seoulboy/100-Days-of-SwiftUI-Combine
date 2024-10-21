@@ -59,9 +59,10 @@ var body: some View {
 NavigationBar을 추가하려면 NavigationStack으로 Form을 둘러싸면 된다. 타이틀이 추가되기 전까지는 외관상 달라지지 않는다. 따라서 Form에 modifier로 `.navigationTitle("SwiftUI")`를 추가하면 타이틀이 나타난다. NavigationStack이 아닌 그 하위 항목인 Form에 추가 해주는 것이 중요하다. 기본적으로는 타이틀의 폰트가 크게 나타나므로 네비바 타이틀을 작게 만들기 위해서는 다음 modifier를 추가한다: `.navigationBarTitleDisplayMode(.inline)`
 
 ## Modifying Program State
+> Views are a function of their state.
+> "뷰들은 자신이 가지고 있는 상태의 함수다." 
 
-> Views are a function of their state
-뷰들은 자신이 가지고 있는 상태의 함수다. 즉 뷰에서 보여지는 것은 상태이고, 뷰를 변경하면 상태 또한 변경된다. view와 model의 two-way binding과 일맥 상통하는 것으로 보인다. 
+즉, 뷰에서 보여지는 것은 상태고 뷰를 변경하면 상태 또한 변경된다. view와 model의 two-way binding과 일맥 상통하는 것으로 보인다. 
 
 @State는 Struct의 프로퍼티 앞에 붙여서 상태를 변경하고 읽을 수 있게 도와주는 키워드이다. mutating 키워드를 사용하지 않아도 이를 통해 값을 변경할 수 있다. Struct에서 프로퍼티는 기본적으로 변경이 불가능하지만 @State 키워드가 붙은 프로퍼티는 따로 SwiftUI를 통해 관리된다. 즉 기존의 프로퍼티가 벨류타입에서 레퍼런스 타입으로 간주되며 힙에 저장되어 관리될 것이라 생각한다. 
 
