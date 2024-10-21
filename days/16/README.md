@@ -67,7 +67,7 @@ NavigationBar을 추가하려면 NavigationStack으로 Form을 둘러싸면 된�
 @State는 Struct의 프로퍼티 앞에 붙여서 상태를 변경하고 읽을 수 있게 도와주는 키워드이다. mutating 키워드를 사용하지 않아도 이를 통해 값을 변경할 수 있다. Struct에서 프로퍼티는 기본적으로 변경이 불가능하지만 @State 키워드가 붙은 프로퍼티는 따로 SwiftUI를 통해 관리된다. 즉 기존의 프로퍼티가 벨류타입에서 레퍼런스 타입으로 간주되며 힙에 저장되어 관리될 것이라 생각한다. 
 
 ## Binding state to user interface controls 
-텍스트필드에서는 상태 값을 읽어오기도 하고 필드에 값을 변경했을 때 실제 상태 값 또한 변경할 수 있어야한다. 즉, 상태에 대해 읽기 쓰기가 모두 되어야한다는 얘기다. 하나의 주체가 상태 값을 읽기도 하고 상태 값을 변경하기도 하는 것을 two-way binding이라고 한다. two-way 바인딩을 사용하기 위해서는 @State 키워드가 붙은 프로퍼티를 입력하고 그 앞에 달러사인($)을 붙인다. 예: `TextField("Enter your name", text: $name)`
+텍스트필드에서는 상태 값을 읽어오기도 하고 필드에 값을 변경했을 때 실제 상태 값 또한 변경할 수 있어야한다. 즉, 상태에 대해 읽기 쓰기가 모두 되어야한다는 얘기다. 하나의 주체가 상태 값을 읽기도 하고 상태 값을 변경하기도 하는 것을 two-way binding이라고 한다. two-way 바인딩을 사용하기 위해서는 @State 키워드가 붙은 프로퍼티를 입력하고 그 앞에 달러사인($)을 붙인다. 예: `TextField("Enter your name", text: $name)` 양방향 바인딩이 아니라 단방향 바인딩만 필요하다면 프로퍼티 선언시 앞에 @State 키워드를 추가하는 것만으로도 충분하다.
 
 ## Creating views in a loop
 
