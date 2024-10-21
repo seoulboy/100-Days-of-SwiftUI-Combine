@@ -19,5 +19,6 @@ Paul Hudson씨의 [100 days of SwiftUI](https://www.hackingwithswift.com/100/swi
   
   - **1~15일차**: Introduction to Swift (과정의 앞부분에 스위프트 기본 개념을 다루는 일차는 스킵하고 SwiftUI를 다루기 시작하는 16일차부터 진행합니다)
   - **16일차**: [_Project 1: WeSplit_ (Part One)](./days/16/)
+  - **17일차**: [_Project 1: WeSplit_ (Part Two)](./days/17/)
   
 </details>
