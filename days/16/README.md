@@ -19,10 +19,11 @@
 
 ## WeSplit: Introduction
 
-WeSplit 앱은 미국 음식점을 이용하고 계산서를 받고 같이 동행한 사람들과 나눌 때 유용한 앱이다. 앱에 팁의 양을 설정하고 계산서를 몇명과 나눌지 입력하면 각자가 내야할 금액을 알려준다. 이러한 앱을 만드는 과정을 통해 SwiftUI의 기본적인 개념들을 짚고 넘어갈 것으로 보인다.
+WeSplit 앱은 미국 음식점을 이용하고 계산서를 받고 같이 동행한 사람들과 나눌 때 유용한 앱이다. 앱에 팁의 양을 설정하고 계산서를 몇명과 나눌지 입력하면 각자가 내야할 금액을 알려준다. 이러한 앱을 만드는 과정을 통해 SwiftUI의 기본적인 개념들을 짚고 넘어갈 것으로 보인다. 시작으로 SwiftUI에 대한 새로운 프로젝트를 생성한다.
 
+Organization Identifier에 대한 설명:
 
-Organization Identifier는 앱을 식별하는 용도로 쓰인다. 바로 아래 보여지는 Bundle Identifier를 보면 Product Name이 맨 뒤에 붙고 그 앞에는 Organization Identifier이 붙는 순서인 것을 알 수 있다. 이런 형식이 필수는 아니지만 웹사이트의 도메인 주소가 unique하기 때문에 이 특성을 그대로 이용하면서 앱을 식별하는데 사용하기 위해 Organization Identifier에 `com.{your_website_domain}` 형식으로 적는 것으로 보인다. 순서를 reverse 시킨 부분은 의문이다. 간단히 추측해보자면 `.com`이 뒤에 붙으면 URL로 인식이 될 가능성을 배제하기 위함이 아닐까 싶다.
+  Organization Identifier는 앱을 식별하는 용도로 쓰인다. 바로 아래 보여지는 Bundle Identifier를 보면 Product Name이 맨 뒤에 붙고 그 앞에는 Organization Identifier이 붙는 순서인 것을 알 수 있다. 이런 형식이 필수는 아니지만 웹사이트의 도메인 주소가 unique하기 때문에 이 특성을 그대로 이용하면서 앱을 식별하는데 사용하기 위해 Organization Identifier에 `com.{your_website_domain}` 형식으로 적는 것으로 보인다. 순서를 reverse 시킨 부분은 의문이다. 간단히 추측해보자면 `.com`이 뒤에 붙으면 URL로 인식이 될 가능성을 배제하기 위함이 아닐까 싶다.
 
 ## Understanding the basic structure of a SwiftUI app
 
