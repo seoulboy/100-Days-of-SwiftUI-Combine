@@ -8,13 +8,13 @@
 
 금일 학습은 아래 7가지의 토픽에 대해 다룰 예정이며 그 과정에서 `Form`, `NavigationStack`, `@Stack`을 소개한다.  
 
-- WeSplit: Introduction
-- Understanding the basic structure of a SwiftUI app
-- Creating a form
-- Adding a navigation bar
-- Modifying program state
-- Binding state to user interface controls
-- Creating views in a loop  
+- WeSplit: Introduction (WeSplit 소개)
+- Understanding the basic structure of a SwiftUI app (SwiftUI의 기본 구조 이해)
+- Creating a form (Form의 생성)
+- Adding a navigation bar (Navigation Bar의 추가)
+- Modifying program state (프로그램의 상태 변경)
+- Binding state to user interface controls (UI 제어장치에 상태를 바인딩하기)
+- Creating views in a loop (루프 안에서 뷰 생성하기)
 
 
 ## WeSplit: Introduction
